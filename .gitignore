@@ -1,6 +1,9 @@
+# dependencies
 node_modules/
+
+# env files
 .env
-.DS_Store
+backend/.env
+
+# logs (optional)
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
