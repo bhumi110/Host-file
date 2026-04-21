@@ -10,7 +10,7 @@ import axios from 'axios';
 const API_BASE = '/api';
 
 const api = axios.create({
-  baseURL: API_BASE,
+  baseURL: "https://fshp-backend.onrender.com",
   headers: {
     'Content-Type': 'application/json',
   },
